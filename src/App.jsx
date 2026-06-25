@@ -1,37 +1,34 @@
+import React from "react";
 import { Routes, Route } from "react-router-dom";
+import MainLayout from "./components/layout/MainLayout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
-import ProtectedRoute from "./components/ProtectedRoute"; // Import du gardien
-import EmptyPage from "./components/EmptyPage"; // Import du composant de message de feedback
-import MainLayout from "./components/layout/Header"; 
+import ProtectedRoute from "./components/ProtectedRoute";
+import EmptyPage from "./components/EmptyPage"; // Ou FeedbackMessage selon vos fichiers
 
 function App() {
   return (
     <Routes>
+      {/* ─── ROUTE PARENTE GLOBALE ─── */}
+      {/* Elle charge MainLayout et applique le Header à tout son arbre inférieur */}
       <Route element={<MainLayout />}>
+        
+        {/* 🔓 Routes Publiques Enfants */}
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signin" element={<SignIn />} />
 
-      {/* 🔓 Routes Publiques */}
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/signin" element={<SignIn />} />
+        {/* 🔐 Routes Protégées Enfants (Double Imbrication Pro) */}
+        <Route element={<ProtectedRoute />}>
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Route>
 
-      {/* 🔐 Routes Protégées (Accessibles uniquement si connecté) */}
-      <Route element={<ProtectedRoute />}>
-        <Route path="/dashboard" element={<Dashboard />} />
-        {/* Vous pourrez ajouter ici d'autres pages privées (ex: /trading, /sales) */}
+        {/* 🧭 Capture d'erreur 404 dans le Layout */}
+        <Route path="*" element={<EmptyPage />} />
+        
       </Route>
-      {/* Dans src/App.jsx, tout en bas à l'intérieur de <Routes> */}
-      <Route 
-        path="*" 
-        element={
-          <EmptyPage  
-          />
-        } 
-      />
-            </Route>
-
     </Routes>
   );
 }

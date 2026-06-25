@@ -1,18 +1,17 @@
-import { Outlet } from "react-router-dom"; // <-- TRÈS IMPORTANT
+import React from "react";
+import { Outlet } from "react-router-dom"; // <-- Crucial pour le Nested Routing
 import Header from "./Header";
-import Footer from "./Footer";
 
 function MainLayout() {
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+      {/* Reste monté en permanence (évite le clignotement) */}
       <Header />
       
-      {/* C'est ici que React Router va injecter Home, Login, etc. */}
-      <main style={{ flex: 1 }}>
+      {/* Zone dynamique où React Router va injecter vos pages enfants */}
+      <main style={{ flex: 1, width: "100%" }}>
         <Outlet /> 
       </main>
-      
-      <Footer />
     </div>
   );
 }
