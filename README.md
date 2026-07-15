@@ -1,5 +1,5 @@
 
-<h1 align="center"><b>Hi , I'm W.MOUAD </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<h1 align="center"><b>Hi , I'm W. MOUAD </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 
 <p align="center">
@@ -8,7 +8,6 @@
 
 
 <p align="center">
-    <a href="https://ibb.co/N6NMDtn"><img src="![Uploading image.png…]()
 " alt="01" border="0" /></a>
 </p>
 
