@@ -1,52 +1,22 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* Conteneur de l'écran numérique */
-        .ticker-container {
-            width: 100%;
-            overflow: hidden; /* Cache tout ce qui dépasse du cadre */
-            background-color: #0d0e12; /* Fond sombre style terminal / trading */
-            border: 2px solid #00ff66; /* Bordure verte style matrice */
-            border-radius: 6px;
-            padding: 10px 0;
-            box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);
-            font-family: 'Courier New', Courier, monospace; /* Police monospace style données */
-        }
 
-        /* Bande de texte qui défile */
-        .ticker-text {
-            display: inline-block;
-            white-space: nowrap; /* Empêche le texte de revenir à la ligne */
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #00ff66; /* Vert fluo numérique */
-            text-shadow: 0 0 5px #00ff66; /* Effet de lueur LED */
-            
-            /* L'animation : Nom | Durée | Type de transition | Répétition */
-            animation: defilement-gauche-droite 15s linear infinite;
-        }
+<h1 align="center"><b>Hi , I'm OFFICIAL KHALID </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-        /* Définition de l'animation de gauche à droite */
-        @keyframes defilement-gauche-droite {
-            0% {
-                transform: translateX(-100%); /* Démarre complètement caché à gauche */
-            }
-            100% {
-                transform: translateX(100%); /* Finit complètement sorti à droite */
-            }
-        }
-    </style>
-</head>
-<body>
 
-    <div class="ticker-container">
-        <div class="ticker-text">
-            🟢 BTC/USD +4.2%  |  🔴 ETH/USD -1.5%  |  🟢 SOL/USD +8.7%  |  ⚡ TICKER EN DIRECT - EXÉCUTION < 1ms  |  🚀 PORTFOLIO DE TRADING ACTIVE
-        </div>
-    </div>
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Hi+Hello+My+Brother..&hearts;++;Self-taught+Bot-hosting+Bot-creation+Developer,;Engineering+Student,;My+Hobby+Is+Coding,;Active+Learner/Researcher,;Love+to+learn+new+stuffs..<3"></a>
+</p>
 
-</body>
-</html>
+
+<p align="center">
+    <a href="https://ibb.co/N6NMDtn"><img src="https://telegra.ph/file/a1fd461c49539f754af23.jpg" alt="01" border="0" /></a>
+</p>
+
+
+<br>
+
+- A passionate Self taught Bot hosting and bot Developing...
+- Explore codes at spare time
+- Currently learning coding by Self mostly JavaScript 
+- A plant engineering student as well...
+<br><br>
+
