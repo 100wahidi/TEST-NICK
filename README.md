@@ -14,9 +14,9 @@
 
 <br>
 
-- A passionate Self taught Bot hosting and bot Developing...
+- A passionate Self about Developing...
 - Explore codes at spare time
-- Currently learning coding by Self mostly JavaScript 
+- Currently learning coding by Self mostly python and C++ 
 - A plant engineering student as well...
 <br><br>
 
