@@ -8,7 +8,8 @@
 
 
 <p align="center">
-  <img width="386" height="518" alt="image" src="https://github.com/user-attachments/assets/0c4386d9-1eb2-4650-b8ef-09da033e0d1a" />
+  ![Uploading image.png…]()
+
 </p>
 
 
